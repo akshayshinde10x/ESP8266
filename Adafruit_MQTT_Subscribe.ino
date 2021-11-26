@@ -2,15 +2,15 @@
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
-#define light 2
-#define WLAN_SSID       "darkmatter"
-#define WLAN_PASS       "darkmatter"
+#define light 4
+#define WLAN_SSID       "*******"
+#define WLAN_PASS       "*******"
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
 
-#define AIO_USERNAME  "akshayshinde"
-#define AIO_KEY       "aio_sTDz424NAT0EJZra61uPq0WvqPIR"
+#define AIO_USERNAME  "***********"
+#define AIO_KEY       "aio_****************vqPIR"
 
 WiFiClient client;
 
@@ -24,8 +24,7 @@ void setup() {
   delay(10);
   pinMode(light, OUTPUT);
   Serial.println(F("Adafruit MQTT demo"));
-  .
-  Serial.println(); Serial.println();
+  Serial.println(); 
   Serial.print("Connecting to ");
   Serial.println(WLAN_SSID);
 
